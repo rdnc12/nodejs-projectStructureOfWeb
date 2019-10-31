@@ -1,0 +1,18 @@
+{
+  "name": "Ebru",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Erdinc",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.3.3",
+    "pug": "^2.0.4"
+  }
+}
