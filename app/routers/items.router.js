@@ -22,6 +22,11 @@ const attachTo = (app, data) => {
         return data.items.create(item)
             .then((dbItem) => {
                 return res.redirect('/items/' + dbItem._id);
+            })
+            .catch((err) => {
+                // connect-flash
+                req.flash('error', err);
+                return res.redirect('/items/form');
             });
     });
 };
