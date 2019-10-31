@@ -12,7 +12,7 @@ const init = (data) => {
     // config end
 
     require('./routers')
-        .attachTo(app);
+        .attachTo(app, data);
 
     return Promise.resolve(app);
 };
