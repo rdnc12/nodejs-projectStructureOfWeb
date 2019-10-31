@@ -4,6 +4,7 @@ class BaseData {
     constructor(db, ModelClass,validator) {
         this.db = db;
         this.ModelClass = ModelClass;
+        this.validator=validator;
         this.collectionName = this._getCollectionName();
         this.collection = this.db.collection(this.collectionName);
     }
@@ -23,7 +24,7 @@ class BaseData {
     }
 
      _isModelValid(model){
-        return true;
+        return this.validator.isModelValid(model);
     }
 
     _getCollectionName() {

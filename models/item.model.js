@@ -6,7 +6,14 @@ class Item{
             typeof model.text === 'string' &&
             model.text.length > 3;
     }
+    
+    // static toViewModel(model){
 
+    // }
+
+    // static fromViewModel(viewModel){
+
+    // }
 }
 
 

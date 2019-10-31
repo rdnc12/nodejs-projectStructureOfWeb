@@ -8,7 +8,8 @@ class ItemsData extends BaseData {
         super(db, Item, Item);
     }
     _isModelValid(model) {
-        
+        //custom validation
+        return super._isModelValid(model);
     }
 }
 
