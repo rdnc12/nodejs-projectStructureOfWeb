@@ -6,7 +6,7 @@ class BaseData {
         this.ModelClass = ModelClass;
         this.validator = validator;
         this.collectionName = this._getCollectionName();
-        this.collection = this.db.collection(this.collectionName);
+       // this.collection = this.db.collection(this.collectionName);
     }
     getAll() {
         const filter = {};
@@ -43,6 +43,9 @@ class BaseData {
     _getCollectionName() {
         return this.ModelClass.name.toLowerCase() + 's';
     }
+    // collection() {
+    //     return _getCollectionName();
+    // }
 }
 
 module.exports = BaseData;
