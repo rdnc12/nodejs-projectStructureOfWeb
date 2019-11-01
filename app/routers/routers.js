@@ -14,7 +14,7 @@ const attachTo = (app, data) => {
         .forEach((file) => {
             const modulePath = path.join(__dirname, file);
             require(modulePath).attachTo(app, data);
-        })
+        });
 };
 
 module.exports = { attachTo };
