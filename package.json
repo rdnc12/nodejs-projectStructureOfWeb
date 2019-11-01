@@ -9,15 +9,38 @@
   },
   "keywords": [],
   "description": "",
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.2",
+    "nyc": "14.1.1",
+    "phantomjs": "2.1.7",
+    "selenium-webdriver": "4.0.0-alpha.4",
+    "supertest": "4.0.2",
+    "supertest-session": "4.0.0",
+    "wdio-mocha-framework": "0.6.4",
+    "wdio-phantomjs-service": "0.2.2",
+    "wdio-spec-reporter": "0.1.5",
+    "webdriverio": "5.15.6"
+  },
   "dependencies": {
+    "body-parser": "1.19.0",
     "bootstrap": "^4.3.1",
     "connect-flash": "^0.1.1",
+    "connect-mongo": "3.1.1",
     "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
     "express-messages": "^1.0.1",
     "express-session": "^1.17.0",
+    "g": "2.0.1",
+    "gulp": "4.0.2",
+    "jquery": "3.4.1",
     "mongodb": "^3.3.3",
-    "pug": "^2.0.4"
+    "morgan": "1.9.1",
+    "passport": "0.4.0",
+    "passport-local": "1.0.0",
+    "pug": "^2.0.4",
+    "session": "0.1.0",
+    "sinon": "^7.5.0"
   }
 }
